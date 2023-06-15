@@ -9,3 +9,9 @@ for(let i = 0; i < 16; i++){
         container.appendChild(square);
     }
 }
+function boardSize(){
+    let num = prompt('Please enter the size of the board you would like, limit: 100');
+    while(num > 100){
+        num = prompt('Please try again, enter the size of the board limit: 100');
+    };
+}
