@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     border: solid 5px red;
+    width: 500px;
+    height: 500px;
 }
 body{
     display: flex;
